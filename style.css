@@ -1,0 +1,256 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.first{
+    border:2px solid white;
+    background-color: black;
+    height:70px;
+    width:100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.material-icons{
+    color:white;
+    margin-left:10px;
+    margin-bottom:2px;
+}
+img{
+    height:30px;
+    width:100px;
+    margin-left:5px;
+    margin-top: 5px;
+}
+input{
+    height:35px;
+    width:590px;
+    background-color: black;
+    border-top:1px solid #555555;
+    margin-left:250px;
+    margin-top: 5px;
+}
+.material-icon .search{
+    margin-top:10px;
+}
+.e1{
+    height:35px;
+    width:40px;
+    background-color:#555555;
+    border-radius:50%;
+    margin-left:7px;
+    padding-top:4px;
+    cursor:pointer;
+    
+}
+.material-icon{
+    margin-left:5px;
+    display:flex;
+}
+.header_icons{
+    justify-content: space-around;
+    margin-left:5px;
+    text-align: end;
+}
+.sidebar{
+    background-color: black;
+    border-color:2px solid white;
+    height:100vh;
+    width:190px;
+    padding-left:9px;
+    cursor:pointer;
+    overflow-y:scroll;
+}
+
+.e5{
+    color:white;
+    margin-left:9px;
+}
+.e6{
+    display:flex;
+}
+.first .header_icons{
+    display:flex;
+}
+
+
+.first .header_left i{
+    padding: 0 10px;
+    cursor:pointer;
+}
+.header_search form{
+    border:1px solid #ddd;
+    height:35px;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.header_search form input{
+    height:100%;
+    width:500px;
+    padding:10px;
+    margin:0;
+    border:none;
+
+}
+.main{
+    display:flex;
+}
+.container{
+    height:1300px;
+    width:1390px;
+    border-color: 2px solid white;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+}
+.first .header_search{
+    display:flex;
+}
+.container .option .button{
+    border-color:2px solid white;
+    width:900px;
+    height:300px;
+    cursor:pointer;
+}
+.option{
+    padding:3px;
+}
+.option .p1{
+    height:30px;
+    width:65px;
+    background-color: #222222;
+    color:white;
+    font-size: medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p2{
+    height:30px;
+    width:65px;
+    background-color: #222222;
+    color:white;
+    font-size: medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p3{
+    height:30px;
+    width:200px;
+    background-color: #222222;
+    color:white;
+    font-size: medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p4{
+    height:30px;
+    width:65px;
+    background-color: #222222;
+    color:white;
+    font-size: medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p5{
+    height:30px;
+    width:150px;
+    background-color: #222222;
+    color:white;
+    font-size: medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p6{
+    height:30px;
+    width:55px;
+    background-color: #222222;
+    color:white;
+    font-size:medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p7{
+    height:30px;
+    width:55px;
+    background-color: #222222;
+    color:white;
+    font-size:medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p8{
+    height:30px;
+    width:55px;
+    background-color: #222222;
+    color:white;
+    font-size:medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p9{
+    height:30px;
+    width:150px;
+    background-color: #222222;
+    color:white;
+    font-size:medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p10{
+    height:30px;
+    width:160px;
+    background-color: #222222;
+    color:white;
+    font-size:medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.option .p11{
+    height:30px;
+    width:110px;
+    background-color: #222222;
+    color:white;
+    font-size:medium;
+    padding:3px;
+    margin-left:3px;
+    border-radius: 10px;
+}
+.sidebar .e6:hover{
+     background-color: #222222;
+     cursor:pointer;
+}
+.first .header_left .material-icons:hover{
+    background-color: #222222;
+}
+.video img{
+    height:200px;
+    width:250px; 
+}
+a{
+    color:white;
+}
+.video img{
+    height:300px;
+    width:320px;
+}
+
+
+.video{
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    
+}
